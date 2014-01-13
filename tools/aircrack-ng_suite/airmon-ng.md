@@ -7,15 +7,15 @@ Notes
  * Kali Linux Verison: 1.0.6  
  * Developers: Thomas d'Otreppe
 
-***Purpose***  -  bash  script designed to turn wireless cards into monitor
-       mode.
+***Purpose***  -  bash  script designed to turn wireless cards into monitor mode.
 
 **SYNOPSIS**
 ```
        airmon-ng <start|stop> <interface> [channel] airmon-ng <check> [kill]
 ```
 **DESCRIPTION**
-```    airmon-ng is script can be used to  enable  monitor  mode  on  wireless
+```    
+	   airmon-ng is script can be used to  enable  monitor  mode  on  wireless
        interfaces. It may also be used to go back from monitor mode to managed
        mode. Entering the airmon-ng command without parameters will  show  the
        interfaces  status.   It can list/kill programs that can interfere with
@@ -23,7 +23,8 @@ Notes
        too.
 ```
 **OPTIONAL PARAMETERS**
-```    start <interface> [channel]
+```    
+		start <interface> [channel]
               Enable  monitor  mode  on  an interface (and specify a channel).
               Note: Madwifi-ng is a special case, 'start' has to  be  used  on
               wifi  interfaces and 'stop' on ath interfaces.  stop <interface>
