@@ -16,7 +16,7 @@ Notes
 [airdecap-ng](../tools/aircrack-ng_suite/airdecap.md)  
 [airdecloak-ng](../tools/aircrack-ng_suite/airdecloak-ng.md)  
 [airdriver-ng](../tools/aircrack-ng_suite/airdriver-ng.md)  
-[airdrop-ng](../tools/aircrack-ng_suite/airdrop-ng.md)  
+[airdecap-ng](../tools/aircrack-ng_suite/airdecap-ng.md)  
 [aireplay-ng](../tools/aircrack-ng_suite/aireplay-ng.md)  
 [airgraph-ng](../tools/aircrack-ng_suite/airgraph-ng.md)  
 [airmon-ng](../tools/aircrack-ng_suite/airmon-ng.md)  

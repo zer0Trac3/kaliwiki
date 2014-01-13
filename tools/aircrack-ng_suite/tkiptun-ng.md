@@ -1,5 +1,12 @@
 TKIPTUN-NG
 
+Notes
+-------
+
+ * Version: 1.2-beta2 release  
+ * Kali Linux Verison: 1.0.6  
+ * Developers: Thomas d'Otreppe
+
 NAME
        tkiptun-ng - inject a few frames into a WPA TKIP network with QoS
 
@@ -7,7 +14,7 @@ SYNOPSIS
        tkiptun-ng [options] <replay interface>
 
 DESCRIPTION
-       tkiptun-ng is a tool created by Martin Beck aka hirte, a member of air‐
+       tkiptun-ng is a tool created by Martin Beck aka hirte, a member of air
        crack-ng team. This tool is able to inject a few frames into a WPA TKIP
        network with QoS. He worked with Erik Tews (who created PTW attack) for
        a conference in PacSec 2008: "Gone in 900 Seconds, Some  Crypto  Issues

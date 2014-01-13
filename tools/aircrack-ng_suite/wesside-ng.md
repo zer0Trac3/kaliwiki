@@ -1,17 +1,17 @@
 WESSIDE-NG
 
 NAME
-       wesside-ng  - crack a WEP key of an open network without user interven‐
+       wesside-ng  - crack a WEP key of an open network without user interven
        tion
 
 SYNOPSIS
        wesside-ng <options>
 
 DESCRIPTION
-       wesside-ng is an auto-magic tool which incorporates a number  of  tech‐
+       wesside-ng is an auto-magic tool which incorporates a number  of  tech
        niques to seamlessly obtain a WEP key in minutes. It first identifies a
        network, then proceeds to associate with it, obtain PRGA (pseudo random
-       generation  algorithm) xor data, determine the network IP scheme, rein‐
+       generation  algorithm) xor data, determine the network IP scheme, rein
        ject ARP requests and finally determine the WEP key. All this  is  done
        without your intervention.
 
@@ -38,7 +38,7 @@ OPTIONS
               is hit to stop the program! (Optional)
 
        -p <min PRGA>
-              Determines the minimum number of bytes of PRGA  which  is  gath‐
+              Determines the minimum number of bytes of PRGA  which  is  gath
               ered. Defaults to 128 bytes. (Optional).
 
        -v <victim MAC>
@@ -51,3 +51,6 @@ OPTIONS
        -f <channel>
               Allows the highest channel for scanning to be defined.  Defaults
               to channel 11 (Optional).
+			  
+Example Usage
+---------------

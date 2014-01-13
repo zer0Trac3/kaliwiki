@@ -1,5 +1,12 @@
 AIRCRACK-NG
 
+Notes
+-------
+
+ * Version: 1.2-beta2 release  
+ * Kali Linux Verison: 1.0.6  
+ * Developers: Thomas d'Otreppe
+
 NAME
        aircrack-ng - a 802.11 WEP / WPA-PSK key cracker
 
@@ -8,7 +15,7 @@ SYNOPSIS
 
 DESCRIPTION
        aircrack-ng is an 802.11 WEP and WPA/WPA2-PSK key cracking program.
-       It can recover the WEP key once enough encrypted packets have been capâ€
+       It can recover the WEP key once enough encrypted packets have been cap
        tured with airodump-ng. This part of the aircrack-ng  suite  determines
        the  WEP key using two fundamental methods. The first method is via the
        PTW approach (Pyshkin, Tews, Weinmann). The main advantage of  the  PTW

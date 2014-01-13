@@ -1,5 +1,13 @@
 AIRDECLOAK-NG
 
+Notes
+-------
+
+ * Version: 1.2-beta2 release  
+ * Kali Linux Verison: 1.0.6  
+ * Developers: Thomas d'Otreppe
+
+
 NAME
        airuncloak-ng - Removes wep cloaked framed from a pcap file.
 
@@ -15,7 +23,7 @@ DESCRIPTION
        use this tool to filter out chaff.
 
        The program works by reading the input file and selecting packets  from
-       a  specific network.  Each selected packet is put into a list and clasâ€
+       a  specific network.  Each selected packet is put into a list and clas
        sified (default status is "unknown"). Filters are then applied (in  the
        order  specified by the user) on this list. They will change the status
        of the packets (unknown, uncloaked, potentially  cloaked  or  cloaked).
@@ -23,7 +31,7 @@ DESCRIPTION
        base its analysis amongst other things on the status of the packets and
        different orders will give different results.
 
-       Important requirement: The pcap file needs to have all packets (includâ€
+       Important requirement: The pcap file needs to have all packets (includ
        ing beacons and all other "useless" packets) for the analysis  (and  if
        possible, prism/radiotap headers).
 
@@ -77,5 +85,5 @@ FILTERS
 
        signal_dup_consec_sn
               Use signal (if available), duplicate  and  consecutive  sequence
-              number (filtering is much more precise than using all these filâ€
+              number (filtering is much more precise than using all these fil
               ters one by one).

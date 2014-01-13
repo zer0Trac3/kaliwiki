@@ -1,7 +1,14 @@
 AIREPLAY-NG
 
+Notes
+-------
+
+ * Version: 1.2-beta2 release  
+ * Kali Linux Verison: 1.0.6  
+ * Developers: Thomas d'Otreppe
+
 NAME
-       aireplay-ng  - inject packets into a wireless network to generate trafâ€
+       aireplay-ng  - inject packets into a wireless network to generate traf
        fic
 
 SYNOPSIS
@@ -10,7 +17,7 @@ SYNOPSIS
 DESCRIPTION
        aireplay-ng is used to inject/replay frames.  The primary  function  is
        to  generate  traffic for the later use in aircrack-ng for cracking the
-       WEP and WPA-PSK keys. There are different attacks which can cause deauâ€
+       WEP and WPA-PSK keys. There are different attacks which can cause deau
        thentications  for  the  purpose  of capturing WPA handshake data, fake
        authentications, Interactive packet replay,  hand-crafted  ARP  request
        injection  and  ARP-request  reinjection.  With the packetforge-ng tool
@@ -82,7 +89,7 @@ OPTIONS
        -e <essid>
               Fake Authentication attack: Set target  SSID  (see  below).  For
               SSID  containing  special  characters,  see http://www.aircrack-
-              ng.org/doku.php?id=faq#how_to_use_spaces_double_quote_and_sinâ€
+              ng.org/doku.php?id=faq#how_to_use_spaces_double_quote_and_sin
               gle_quote_etc._in_ap_names
 
        -o <npackets>
@@ -135,10 +142,10 @@ OPTIONS
        -0 <count>, --deauth=<count>
               This  attack  sends  deauthentication  packets  to  one  or more
               clients which are currently associated with a particular  access
-              point. Deauthenticating clients can be done for a number of reaâ€
+              point. Deauthenticating clients can be done for a number of rea
               sons: Recovering a hidden ESSID. This is an ESSID which  is  not
               being broadcast. Another term for this is "cloaked" or Capturing
-              WPA/WPA2 handshakes by forcing clients to reauthenticate or Genâ€
+              WPA/WPA2 handshakes by forcing clients to reauthenticate or Gen
               erate  ARP  requests  (Windows clients sometimes flush their ARP
               cache when disconnected).  Of course,  this  attack  is  totally
               useless  if  there  are no associated wireless client or on fake
@@ -148,7 +155,7 @@ OPTIONS
               The fake authentication attack allows you  to  perform  the  two
               types  of  WEP  authentication (Open System and Shared Key) plus
               associate with the access point (AP). This  is  useful  is  only
-              useful  when you need an associated MAC address in various aireâ€
+              useful  when you need an associated MAC address in various aire
               play-ng attacks and there is currently no associated client.  It
               should  be  noted  that  the fake authentication attack does NOT
               generate any ARP packets. Fake authentication cannot be used  to
@@ -157,12 +164,12 @@ OPTIONS
        -2, --interactive
               This attack allows you to choose a specific packet for replaying
               (injecting). The attack can obtain packets to  replay  from  two
-              sources.  The first being a live flow of packets from your wireâ€
+              sources.  The first being a live flow of packets from your wire
               less card. The second being from a pcap  file.  Reading  from  a
               file  is an often overlooked feature of aireplay-ng. This allows
               you read packets from other capture  sessions  or  quite  often,
               various attacks generate pcap files for easy reuse. A common use
-              of reading a file containing a packet your created with  packetâ€
+              of reading a file containing a packet your created with  packet
               forge-ng.
 
        -3, --arpreplay
@@ -179,7 +186,7 @@ OPTIONS
               This attack, when successful, can  decrypt  a  WEP  data  packet
               without  knowing  the key. It can even work against dynamic WEP.
               This attack does not recover the  WEP  key  itself,  but  merely
-              reveals  the plaintext. However, some access points are not vulâ€
+              reveals  the plaintext. However, some access points are not vul
               nerable to this attack. Some may seem vulnerable  at  first  but
               actually  drop data packets shorter that 60 bytes. If the access
               point drops packets shorter than 42  bytes,  aireplay  tries  to
@@ -214,8 +221,8 @@ OPTIONS
        -8, --migmode
               This attack works against Cisco Aironet access points configured
               in WPA Migration Mode, which enables both WPA and WEP clients to
-              associate to an access point using the same Service Set  Identiâ€
-              fier  (SSID).  The program listens for a WEP-encapsulated broadâ€
+              associate to an access point using the same Service Set  Identi
+              fier  (SSID).  The program listens for a WEP-encapsulated broad
               cast ARP packet, bitflips it to make it into an ARP coming  from
               the  attacker's  MAC  address  and  retransmits it to the access
               point. This, in turn, causes the access point to repeat the  ARP

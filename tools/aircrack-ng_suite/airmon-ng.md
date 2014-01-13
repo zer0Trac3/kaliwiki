@@ -7,13 +7,13 @@ Notes
  * Kali Linux Verison: 1.0.6  
  * Developers: Thomas d'Otreppe
 
-***Purpose***  -  bash  script designed to turn wireless cards into monitor mode.
+**Purpose**  -  bash  script designed to turn wireless cards into monitor mode.
 
-**SYNOPSIS**
+***SYNOPSIS***
 ```
        airmon-ng <start|stop> <interface> [channel] airmon-ng <check> [kill]
 ```
-**DESCRIPTION**
+***DESCRIPTION***
 ```    
 	   airmon-ng is script can be used to  enable  monitor  mode  on  wireless
        interfaces. It may also be used to go back from monitor mode to managed
@@ -22,7 +22,7 @@ Notes
        the wireless card and set the right sources in  /etc/kismet/kismet.conf
        too.
 ```
-**OPTIONAL PARAMETERS**
+***OPTIONAL PARAMETERS***
 ```    
 		start <interface> [channel]
               Enable  monitor  mode  on  an interface (and specify a channel).

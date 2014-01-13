@@ -1,5 +1,12 @@
 AIRTUN-NG
 
+Notes
+-------
+
+ * Version: 1.2-beta2 release  
+ * Kali Linux Verison: 1.0.6  
+ * Developers: Thomas d'Otreppe
+
 NAME
        airtun-ng - a virtual tunnel interface creator for aircrack-ng
 
@@ -7,7 +14,7 @@ SYNOPSIS
        airtun-ng [options] <interface name>
 
 DESCRIPTION
-       airtun-ng  creates  a  virtual tunnel interface (atX) for sending arbi‐
+       airtun-ng  creates  a  virtual tunnel interface (atX) for sending arbi
        trary IP packets by using raw ieee802.11 packet injection.
 
 OPTIONS

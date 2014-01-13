@@ -1,5 +1,12 @@
 AIRDECAP-NG
 
+Notes
+-------
+
+ * Version: 1.2-beta2 release  
+ * Kali Linux Verison: 1.0.6  
+ * Developers: Thomas d'Otreppe
+
 NAME
        airdecap-ng - decrypt a WEP/WPA crypted pcap file
 
@@ -24,7 +31,7 @@ OPTIONS
 
        -e <essid>
               Target network SSID. For SSID containing special characters, see
-              http://www.aircrack-ng.org/doku.php?id=faq#how_to_use_spaâ€
+              http://www.aircrack-ng.org/doku.php?id=faq#how_to_use_spa
               ces_double_quote_and_single_quote_etc._in_ap_names
 
        -p <pass>

@@ -1,5 +1,12 @@
 AIROLIB-NG
 
+Notes
+-------
+
+ * Version: 1.2-beta2 release  
+ * Kali Linux Verison: 1.0.6  
+ * Developers: Thomas d'Otreppe
+
 NAME
        airolib-ng - manage and create a WPA/WPA2 pre-computed hashes tables
 

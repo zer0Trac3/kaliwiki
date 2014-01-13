@@ -1,5 +1,12 @@
 KSTATS
 
+Notes
+-------
+
+ * Version: 1.2-beta2 release  
+ * Kali Linux Verison: 1.0.6  
+ * Developers: Thomas d'Otreppe
+
 NAME
        kstats  -  show  statistical  FMS algorithm votes for an ivs dump and a
        specified WEP key

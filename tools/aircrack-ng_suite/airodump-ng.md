@@ -1,5 +1,12 @@
 AIRODUMP-NG
 
+Notes
+-------
+
+ * Version: 1.2-beta2 release  
+ * Kali Linux Verison: 1.0.6  
+ * Developers: Thomas d'Otreppe
+
 NAME
        airodump-ng - a wireless packet capture tool for aircrack-ng
 
@@ -8,8 +15,8 @@ SYNOPSIS
 
 DESCRIPTION
        airodump-ng  is  used for packet capturing of raw 802.11 frames for the
-       intent of using them with aircrack-ng. If you have a GPS receiver  conâ€
-       nected  to  the computer, airodump-ng is capable of logging the coordiâ€
+       intent of using them with aircrack-ng. If you have a GPS receiver  con
+       nected  to  the computer, airodump-ng is capable of logging the coordi
        nates of the found access points. Additionally, airodump-ng writes  out
        a  text  file  containing  the details of all access points and clients
        seen.
@@ -23,7 +30,7 @@ OPTIONS
               specified, you have to give a dump prefix (--write option)
 
        -g, --gpsd
-              Indicate  that airodump-ng should try to use GPSd to get coordiâ€
+              Indicate  that airodump-ng should try to use GPSd to get coordi
               nates.
 
        -w <prefix>, --write <prefix>
@@ -82,7 +89,7 @@ OPTIONS
               Display APs uptime obtained from its beacon timestamp.
 
        --output-format <formats>
-              Define  the formats to use (separated by a comma). Possible valâ€
+              Define  the formats to use (separated by a comma). Possible val
               ues are: pcap, ivs, csv, gps, kismet, netxml. The default values
               are: pcap, csv, kismet, kismet-newcore.  'pcap' is for recording
               a capture in pcap format, 'ivs' is  for  ivs  format  (it  is  a
@@ -168,10 +175,10 @@ EXAMPLES
        BSSID               STATION             PWR    Rate     Lost     Frames
        Probes
 
-       00:14:6C:7A:41:81   00:0F:B5:32:31:31   51   11-11     2       14  bigâ€
+       00:14:6C:7A:41:81   00:0F:B5:32:31:31   51   11-11     2       14  big
        bear
        (not associated)   00:14:A4:3F:8D:13   19   11-11     0        4  mossy
-       00:14:6C:7A:41:81  00:0C:41:52:D1:D1   -1    11-2     0        5   bigâ€
+       00:14:6C:7A:41:81  00:0C:41:52:D1:D1   -1    11-2     0        5   big
        bear
        00:14:6C:7E:40:80  00:0F:B5:FD:FB:C2   35   36-24     0       99  teddy
        -----------------------------------------------------------------------
@@ -192,10 +199,10 @@ EXAMPLES
               doesn't support signal level reporting.
 
        RXQ    Only shown when on a fixed channel. Receive Quality as  measured
-              by  the  percentage of packets (management and data frames) sucâ€
+              by  the  percentage of packets (management and data frames) suc
               cessfully received over the last 10 seconds. It's measured  over
               all management and data frames. That's the clue, this allows you
-              to read more things out of this value. Lets say you got 100 perâ€
+              to read more things out of this value. Lets say you got 100 per
               cent  RXQ  and  all 10 (or whatever the rate) beacons per second
               coming in. Now all of a sudden the RXQ drops below 90,  but  you
               still  capture  all  sent  beacons. Thus you know that the AP is
@@ -209,13 +216,13 @@ EXAMPLES
 
        Beacons
               Number of beacons sent by the AP. Each access point sends  about
-              ten beacons per second at the lowest rate (1M), so they can usuâ€
+              ten beacons per second at the lowest rate (1M), so they can usu
               ally be picked up from very far.
 
        #Data  Number of captured data  packets  (if  WEP,  unique  IV  count),
               including data broadcast packets.
 
-       #/s    Number  of data packets per second measure over the last 10 secâ€
+       #/s    Number  of data packets per second measure over the last 10 sec
               onds.
 
        CH     Channel number (taken  from  beacon  packets).  Note:  sometimes
@@ -242,7 +249,7 @@ EXAMPLES
               separate  authentication  server), SKA (shared key for WEP), PSK
               (pre-shared key for WPA/WPA2), or OPN (open for WEP).
 
-       ESSID  The so-called "SSID", which can be empty if SSID hiding is actiâ€
+       ESSID  The so-called "SSID", which can be empty if SSID hiding is acti
               vated.  In  this  case, airodump-ng will try to recover the SSID
               from probe responses and association requests.
 
@@ -258,7 +265,7 @@ EXAMPLES
 
        Lost   It  means  lost packets coming from the client. To determine the
               number of packets lost, there is a sequence field on every  non-
-              control frame, so you can subtract the second last sequence numâ€
+              control frame, so you can subtract the second last sequence num
               ber from the last sequence number and you know how many  packets
               you have lost.
 

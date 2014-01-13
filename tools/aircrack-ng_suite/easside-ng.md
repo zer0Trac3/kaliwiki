@@ -1,5 +1,12 @@
 EASSIDE-NG
 
+Notes
+-------
+
+ * Version: 1.2-beta2 release  
+ * Kali Linux Verison: 1.0.6  
+ * Developers: Thomas d'Otreppe
+
 NAME
        easside-ng  - an auto-magic tool which allows you to communicate via an
        WEP-encrypted AP without knowing the key

@@ -1,5 +1,12 @@
 PACKETFORGE-NG
 
+Notes
+-------
+
+ * Version: 1.2-beta2 release  
+ * Kali Linux Verison: 1.0.6  
+ * Developers: Thomas d'Otreppe
+
 NAME
        packetforge-ng - forge packets: ARP, UDP, ICMP or custom packets.
 
@@ -7,11 +14,11 @@ SYNOPSIS
        packetforge-ng <mode> <options>
 
 DESCRIPTION
-       packetforge-ng  is  a  tool to create encrypted packets that can subse‐
+       packetforge-ng  is  a  tool to create encrypted packets that can subse
        quently be used for injection. You may create various types of  packets
        such as arp requests, UDP, ICMP and custom packets. The most common use
        is to create ARP requests for subsequent injection.
-       To create an encrypted packet, you must have a PRGA (pseudo random gen‐
+       To create an encrypted packet, you must have a PRGA (pseudo random gen
        ration  algorithm) file. This is used to encrypt the packet you create.
        This is typically obtained from aireplay-ng chopchop  or  fragmentation
        attacks.
